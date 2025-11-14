@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #FAFAF8;
+}
+.main-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #333;
+}
+.main-nav .logo{
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-right: auto;
+    padding-left: 100px;
+}
+.main-nav ul{
+    list-style: none;
+    display: flex;
+}
+.main-nav ul li{
+    margin: 0 8px;
+}
+.main-nav ul li a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.main-nav ul li a:hover{
+    background-color: #555;
+    color: #ffcc00;
+    border-radius: 4px;
+}
+.hero-section{
+    display: flex;
+    margin-top: 100px;
+    padding: 0 20px;
+}
+.hero-section .hero-content h1{
+    padding: 13px 78px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    width: 50%;
+    text-transform: uppercase;
+}
+.hero-section .hero-content p{
+    padding: 13px 78px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width: 40%;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.hero-section .hero-content .hero-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 20px 0 0 76px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.hero-section .hero-content .hero-btn:hover{
+    background-color: #555;
+    color: #ffcc00;
+}
+.hero-section-image-about{
+    float: left;
+}
+.hero-content-about{
+    margin-top: 100px;
+}
+.hero-content-about .span1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    width: 50%;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.hero-content-about p{
+    padding: 13px 78px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width: 40%;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-top: 80px;
+    float: right;
+}
+/* SKILLS SECTION */
+.skills-section{
+    margin-top: 100px;
+    padding: 0 20px;
+}
+.skills-section h2{
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+.skills-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skill-card{
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.skill-card h3{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.skill-card p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+/* HOVERS */
+.skill-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
